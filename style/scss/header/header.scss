@@ -1,0 +1,344 @@
+@media screen and (min-width:1476px) {
+    header {
+        position: relative;
+        width: 75%;
+        margin: 0 auto;
+
+        nav {
+            display: flex;
+            background: #00c8f8;
+            justify-content: space-between;
+            padding: 5px 20px;
+
+            div {
+
+                h1 {
+                    font-weight: 200;
+
+                    i.material-icons {
+                        font-size: 28px;
+                        padding: 0px 10px;
+                        vertical-align: top;
+                    }
+                }
+            }
+
+            ul {
+                display: flex;
+                align-items: center;
+
+                li {
+                    list-style: none;
+                    display: inline-block;
+                    width: 40px;
+                    text-align: center;
+
+                    i.material-icons {
+                        font-size: 30px;
+                        cursor: pointer;
+                    }
+                }
+
+                li.active {
+                    color: #ff6624;
+                    background: #63daf7;
+                    border-radius: 2px;
+                }
+            }
+        }
+
+        div.utilisateur {
+
+            display: flex;
+            justify-content: space-between;
+            height: 100px;
+            align-items: center;
+            padding: 0px 10px;
+
+            h2 {
+                color: #008db1;
+                font-weight: 200;
+
+                i.material-icons {
+                    font-size: 35px;
+                    padding: 0px 5px;
+                    vertical-align: top;
+                    color: black;
+                }
+            }
+
+            div#create-user {
+                background: #ff6624;
+                padding: 4px;
+                text-align: center;
+                border-radius: 2%;
+                cursor: pointer;
+
+                i.material-icons {
+                    padding: 0px 5px;
+                    vertical-align: bottom;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:736px) and (max-width:1472px) {
+    header {
+        position: relative;
+        margin: 0 auto;
+
+        nav {
+            display: flex;
+            background: #00c8f8;
+            justify-content: space-between;
+            padding: 5px 20px;
+
+            div {
+
+                h1 {
+                    font-weight: 200;
+
+                    i.material-icons {
+                        font-size: 28px;
+                        padding: 0px 10px;
+                        vertical-align: top;
+                    }
+                }
+            }
+
+            ul {
+                display: flex;
+                align-items: center;
+
+                li {
+                    list-style: none;
+                    display: inline-block;
+                    width: 40px;
+                    text-align: center;
+
+                    i.material-icons {
+                        font-size: 30px;
+                        cursor: pointer;
+                    }
+                }
+
+                li.active {
+                    color: #ff6624;
+                    background: #63daf7;
+                    border-radius: 2px;
+                }
+            }
+        }
+
+        div.utilisateur {
+
+            display: flex;
+            justify-content: space-between;
+            height: 100px;
+            align-items: center;
+            padding: 0px 10px;
+
+            h2 {
+                color: #008db1;
+                font-weight: 200;
+
+                i.material-icons {
+                    font-size: 35px;
+                    padding: 0px 5px;
+                    vertical-align: top;
+                    color: black;
+                }
+            }
+
+            div#create-user {
+                background: #ff6624;
+                padding: 4px;
+                text-align: center;
+                border-radius: 2%;
+                cursor: pointer;
+
+                i.material-icons {
+                    padding: 0px 5px;
+                    vertical-align: bottom;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:560px) and (max-width:735px) {
+    header {
+        position: relative;
+        margin: 0 auto;
+
+        nav {
+            display: flex;
+            background: #00c8f8;
+            justify-content: space-between;
+            padding: 5px 20px;
+
+            div {
+
+                h1 {
+                    font-weight: 200;
+                    font-size: 18px;
+
+                    i.material-icons {
+                        font-size: 28px;
+                        padding: 0px 10px;
+                        vertical-align: middle;
+                    }
+                }
+            }
+
+            ul {
+                display: flex;
+                align-items: center;
+
+                li {
+                    list-style: none;
+                    display: inline-block;
+                    width: 40px;
+                    text-align: center;
+
+                    i.material-icons {
+                        font-size: 30px;
+                        cursor: pointer;
+                    }
+                }
+
+                li.active {
+                    color: #ff6624;
+                    background: #63daf7;
+                    border-radius: 2px;
+                }
+            }
+        }
+
+        div.utilisateur {
+
+            display: flex;
+            justify-content: space-between;
+            height: 100px;
+            align-items: center;
+            padding: 0px 10px;
+
+            h2 {
+                color: #008db1;
+                font-weight: 200;
+
+                i.material-icons {
+                    font-size: 35px;
+                    padding: 0px 5px;
+                    vertical-align: top;
+                    color: black;
+                }
+            }
+
+            div#create-user {
+                background: #ff6624;
+                padding: 4px;
+                text-align: center;
+                border-radius: 2%;
+                cursor: pointer;
+
+                i.material-icons {
+                    padding: 0px 5px;
+                    vertical-align: bottom;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:559px) {
+    header {
+        position: relative;
+        margin: 0 auto;
+
+        nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #00c8f8;
+            justify-content: space-between;
+            padding: 5px 20px;
+
+            div {
+
+                h1 {
+                    font-weight: 200;
+                    font-size: 18px;
+
+                    i.material-icons {
+                        font-size: 28px;
+                        padding: 0px 10px;
+                        vertical-align: middle;
+                    }
+                }
+            }
+
+            ul {
+                display: flex;
+                align-items: center;
+
+                li {
+                    list-style: none;
+                    display: inline-block;
+                    width: 40px;
+                    text-align: center;
+
+                    i.material-icons {
+                        font-size: 30px;
+                        cursor: pointer;
+                    }
+                }
+
+                li.active {
+                    color: #ff6624;
+                    background: #63daf7;
+                    border-radius: 2px;
+                }
+            }
+        }
+
+        div.utilisateur {
+
+            display: flex;
+            justify-content: space-between;
+            height: 100px;
+            align-items: center;
+            padding: 0px 10px;
+
+            h2 {
+                color: #008db1;
+                font-weight: 200;
+                font-size: 18px;
+
+                i.material-icons {
+                    padding: 0px 5px;
+                    vertical-align: top;
+                    color: black;
+                }
+            }
+
+            div#create-user {
+                background: #ff6624;
+                padding: 4px;
+                text-align: center;
+                border-radius: 2%;
+                cursor: pointer;
+
+                i.material-icons {
+                    padding: 0px 5px;
+                    vertical-align: bottom;
+                    color: black;
+                }
+            }
+        }
+    }
+}

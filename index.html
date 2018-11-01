@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" lang="fr">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <!-- feuille de style charger par sass -->
+    <link rel="stylesheet" href="style/style.css">
+    
+    <!-- feuille de style jquery ui -->
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
+
+    <!-- Pour l'utilisation des font awesome icon et de material icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Le bloc en-tête -->
+    <header>
+        <nav>
+            <div>
+                <h1><i class="material-icons">menu</i> LGT Paul Martin-AMIENS</h1>
+            </div>
+            <ul>
+                <li><i class="material-icons">home</i></li>
+                <li class="active"><i class="material-icons">person_outline</i></li>
+                <li><i class="material-icons ">people</i></li>
+                <li><i class="material-icons">apps</i></li>
+                <li><i class="material-icons">report_problem</i></li>
+                <li><i class="material-icons "> power_settings_new</i></li>
+            </ul>
+        </nav>
+        <div class="utilisateur">
+            <h2><i class="material-icons">person_outline</i> Utilisateurs</h2>
+            <div id="create-user">
+                Créer un utilisateur <i class="material-icons">person_add</i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Le bloc contenu -->
+    <section>
+       <!-- Le bloc gauche -->
+        <div id="bloc-left">
+            <div id="bloc-search">
+                <div class="saisi">
+                    <input type="text" id="search-user" name="search-user" placeholder="Rechercher un utilisateur">
+                    <i id="button-search" class="material-icons">search</i>
+                    <hr>
+                </div>
+
+                <div class="filtre" id="filtrer">
+                    <p>Filtres <i class="material-icons"> keyboard_arrow_right</i> </p>
+                </div>
+            </div>
+            <ul id="order-to">
+                <li id="order-alpha"><i class="fas fa-sort-alpha-down"></i></li>
+                <li id="order-aleatoire"><i class="fas fa-sort-amount-down"></i></li>
+                <li id="select-all">Tout sélectionner</li>
+                <li id="select-multi">Multi-sélection <i class="far fa-check-circle"></i></li>
+            </ul>
+            <ul id="user-list">
+                <!-- on insert la liste d'user ici -->
+            </ul>
+        </div>
+        
+        <!-- le bloc droite -->
+        <div id="bloc-right">
+            <div class="info-user">
+                <h2>NOM Prénom - Classe</h2><i class="material-icons">clear</i>
+            </div>
+            <div class="info-doublon">
+                <p>Compte en doublon</p>
+                <button id="set-doublon">Gérer le doublon <i class="material-icons">vertical_align_center</i></button>
+            </div>
+            <div class="param">
+                <div class="param-left">
+                    <img src="archives/image/img.PNG" alt="Profil User">
+                    <button id="block-user">Bloquer le compte <i class="material-icons">pan_tool</i></button>
+                    <button id="del-user">Supprimer le compte <i class="material-icons">delete</i></button>
+                </div>
+                <div class="param-right">
+                    <div id="com-rule">
+                        <p>Règle de communication de l'utilisateur</p> <i class="material-icons">record_voice_over</i>
+                    </div>
+                    <div id="app-rule">
+                        <p>Droit applicatifs du groupe</p> <i class="material-icons">apps</i>
+                    </div>
+                </div>
+            </div>
+            <div class="info-title">
+                <h2>Connexion et infos ENT</h2>
+            </div>
+            <div id="info-connexion">
+                <!-- on insert les infos de connexions ici -->
+            </div>
+            <div class="info-title">
+                <h2>Informations administratives</h2>
+            </div>
+            <div id="info-admin">
+                <form action="#">
+                    <label for="idPrenom">Prénom</label>
+                    <input type="text" id="idPrenom" value="">
+
+                    <input id="idEnvoie" type="submit" value="Enregistrer les modifications">
+                    <br>
+                    <label for="idNom">Nom</label>
+                    <input type="text" id="idNom" value="">
+                    <br>
+                    <label for="idAffichage">Nom d'affichage</label>
+                    <input type="text" id="idAffichage" value="">
+                    <br>
+                    <label for="idNaissance">Date de naissance</label>
+                    <input type="text" id="idNaissance" value="">
+                    <br>
+                    <label for="idAdresse">Adresse</label>
+                    <input type="text" id="idAdresse" value="">
+                    <br>
+                    <label for="idCp">Code postal</label>
+                    <input type="number" id="idCp" value="" size="6">
+                    <br>
+                    <label for="idVille">Ville</label>
+                    <input type="text" id="idVille" value="">
+                    <br>
+                    <label for="idPays">Pays</label>
+                    <input type="text" id="idPays" value="">
+                    <br>
+                    <label for="idMail">Mail</label>
+                    <input type="email" id="idMail" value="">
+                </form>
+            </div>
+            <div class="info-title" id="responsable">
+                <h2>Responsables</h2>
+                <div><i class="material-icons">keyboard_arrow_down</i></div>
+            </div>
+            <div id="bloc-responsable" class="bloc-list">
+                <button id="add-responsable">Ajouter un responsable <i class="material-icons">person_add</i></button>
+                <ul id="list-parent">
+                    <!-- on insert la liste des parents de l'user ici -->
+                </ul>
+            </div>
+            <div class="info-title" id="fonction">
+                <h2>Fonction(s) / Matière(s)</h2>
+                <div><i class="material-icons">keyboard_arrow_down</i></div>
+            </div>
+            <div id="bloc-fonction" class="bloc-list">
+                <button id="add-fonction">Ajouter une matière <i class="material-icons">group_add</i></button>
+                <ul id="list-fonction">
+                    <!-- on insert la liste des fonctions de l'user ici -->
+                </ul>
+            </div>
+            <div class="info-title" id="etablissement">
+                <h2>Etablissement(s)</h2>
+                <div><i class="material-icons">keyboard_arrow_down</i></div>
+            </div>
+            <div id="bloc-etablissement" class="bloc-list">
+                <button id="add-etablissement">Ajouter un établissement <i class="material-icons">domain</i></button>
+                <ul id="list-etablissement">
+                    <!-- on insert la liste des établissements de l'user ici -->
+                </ul>
+            </div>
+            <div class="info-title" id="classe">
+                <h2>Classe(s)</h2>
+                <div><i class="material-icons">keyboard_arrow_down</i></div>
+            </div>
+            <div id="bloc-classe" class="bloc-list">
+                <button id="add-classe">Ajouter une classe<i class="material-icons">school</i></button>
+                <ul id="list-classe">
+                    <!-- on insert la liste des classes de l'user -->
+                </ul>
+            </div>
+            <div class="info-title" id="enseignement">
+                <h2>Groupe(s) d'enseignement</h2>
+                <div><i class="material-icons">keyboard_arrow_down</i></div>
+            </div>
+            <div id="bloc-enseignement" class="bloc-list">
+                <button id="add-groupEns">Ajouter un groupe<i class="material-icons">group_add</i></button>
+                <ul id="list-groupEnseign">
+                    <!-- on insert la liste des groupes enseignement de l'user ici -->
+                </ul>
+            </div>
+            <div class="info-title" id="group">
+                <h2>Groupe(s) ENT</h2>
+                <div><i class="material-icons">keyboard_arrow_down</i></div>
+            </div>
+            <div id="bloc-group" class="bloc-list">
+                <button id="add-groupEnt">Ajouter un groupe <i class="material-icons">group_add</i></button>
+                <ul id="list-groupEnt">
+                    <!-- on insert la liste des groupes ENT de l'user ici -->
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <script src="js/myJsUsersList.js"></script>
+    <script src="js/myJsUser.js"></script>
+    <script src="js/myJs.js"></script>
+</body>
+
+</html>

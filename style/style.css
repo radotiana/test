@@ -1,0 +1,1306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'arial'; }
+
+i.material-icons {
+  cursor: pointer; }
+
+@media screen and (min-width: 1476px) {
+  header {
+    position: relative;
+    width: 75%;
+    margin: 0 auto; }
+    header nav {
+      display: flex;
+      background: #00c8f8;
+      justify-content: space-between;
+      padding: 5px 20px; }
+      header nav div h1 {
+        font-weight: 200; }
+        header nav div h1 i.material-icons {
+          font-size: 28px;
+          padding: 0px 10px;
+          vertical-align: top; }
+      header nav ul {
+        display: flex;
+        align-items: center; }
+        header nav ul li {
+          list-style: none;
+          display: inline-block;
+          width: 40px;
+          text-align: center; }
+          header nav ul li i.material-icons {
+            font-size: 30px;
+            cursor: pointer; }
+        header nav ul li.active {
+          color: #ff6624;
+          background: #63daf7;
+          border-radius: 2px; }
+    header div.utilisateur {
+      display: flex;
+      justify-content: space-between;
+      height: 100px;
+      align-items: center;
+      padding: 0px 10px; }
+      header div.utilisateur h2 {
+        color: #008db1;
+        font-weight: 200; }
+        header div.utilisateur h2 i.material-icons {
+          font-size: 35px;
+          padding: 0px 5px;
+          vertical-align: top;
+          color: black; }
+      header div.utilisateur div#create-user {
+        background: #ff6624;
+        padding: 4px;
+        text-align: center;
+        border-radius: 2%;
+        cursor: pointer; }
+        header div.utilisateur div#create-user i.material-icons {
+          padding: 0px 5px;
+          vertical-align: bottom;
+          color: black; } }
+@media screen and (min-width: 736px) and (max-width: 1472px) {
+  header {
+    position: relative;
+    margin: 0 auto; }
+    header nav {
+      display: flex;
+      background: #00c8f8;
+      justify-content: space-between;
+      padding: 5px 20px; }
+      header nav div h1 {
+        font-weight: 200; }
+        header nav div h1 i.material-icons {
+          font-size: 28px;
+          padding: 0px 10px;
+          vertical-align: top; }
+      header nav ul {
+        display: flex;
+        align-items: center; }
+        header nav ul li {
+          list-style: none;
+          display: inline-block;
+          width: 40px;
+          text-align: center; }
+          header nav ul li i.material-icons {
+            font-size: 30px;
+            cursor: pointer; }
+        header nav ul li.active {
+          color: #ff6624;
+          background: #63daf7;
+          border-radius: 2px; }
+    header div.utilisateur {
+      display: flex;
+      justify-content: space-between;
+      height: 100px;
+      align-items: center;
+      padding: 0px 10px; }
+      header div.utilisateur h2 {
+        color: #008db1;
+        font-weight: 200; }
+        header div.utilisateur h2 i.material-icons {
+          font-size: 35px;
+          padding: 0px 5px;
+          vertical-align: top;
+          color: black; }
+      header div.utilisateur div#create-user {
+        background: #ff6624;
+        padding: 4px;
+        text-align: center;
+        border-radius: 2%;
+        cursor: pointer; }
+        header div.utilisateur div#create-user i.material-icons {
+          padding: 0px 5px;
+          vertical-align: bottom;
+          color: black; } }
+@media screen and (min-width: 560px) and (max-width: 735px) {
+  header {
+    position: relative;
+    margin: 0 auto; }
+    header nav {
+      display: flex;
+      background: #00c8f8;
+      justify-content: space-between;
+      padding: 5px 20px; }
+      header nav div h1 {
+        font-weight: 200;
+        font-size: 18px; }
+        header nav div h1 i.material-icons {
+          font-size: 28px;
+          padding: 0px 10px;
+          vertical-align: middle; }
+      header nav ul {
+        display: flex;
+        align-items: center; }
+        header nav ul li {
+          list-style: none;
+          display: inline-block;
+          width: 40px;
+          text-align: center; }
+          header nav ul li i.material-icons {
+            font-size: 30px;
+            cursor: pointer; }
+        header nav ul li.active {
+          color: #ff6624;
+          background: #63daf7;
+          border-radius: 2px; }
+    header div.utilisateur {
+      display: flex;
+      justify-content: space-between;
+      height: 100px;
+      align-items: center;
+      padding: 0px 10px; }
+      header div.utilisateur h2 {
+        color: #008db1;
+        font-weight: 200; }
+        header div.utilisateur h2 i.material-icons {
+          font-size: 35px;
+          padding: 0px 5px;
+          vertical-align: top;
+          color: black; }
+      header div.utilisateur div#create-user {
+        background: #ff6624;
+        padding: 4px;
+        text-align: center;
+        border-radius: 2%;
+        cursor: pointer; }
+        header div.utilisateur div#create-user i.material-icons {
+          padding: 0px 5px;
+          vertical-align: bottom;
+          color: black; } }
+@media screen and (min-width: 320px) and (max-width: 559px) {
+  header {
+    position: relative;
+    margin: 0 auto; }
+    header nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #00c8f8;
+      justify-content: space-between;
+      padding: 5px 20px; }
+      header nav div h1 {
+        font-weight: 200;
+        font-size: 18px; }
+        header nav div h1 i.material-icons {
+          font-size: 28px;
+          padding: 0px 10px;
+          vertical-align: middle; }
+      header nav ul {
+        display: flex;
+        align-items: center; }
+        header nav ul li {
+          list-style: none;
+          display: inline-block;
+          width: 40px;
+          text-align: center; }
+          header nav ul li i.material-icons {
+            font-size: 30px;
+            cursor: pointer; }
+        header nav ul li.active {
+          color: #ff6624;
+          background: #63daf7;
+          border-radius: 2px; }
+    header div.utilisateur {
+      display: flex;
+      justify-content: space-between;
+      height: 100px;
+      align-items: center;
+      padding: 0px 10px; }
+      header div.utilisateur h2 {
+        color: #008db1;
+        font-weight: 200;
+        font-size: 18px; }
+        header div.utilisateur h2 i.material-icons {
+          padding: 0px 5px;
+          vertical-align: top;
+          color: black; }
+      header div.utilisateur div#create-user {
+        background: #ff6624;
+        padding: 4px;
+        text-align: center;
+        border-radius: 2%;
+        cursor: pointer; }
+        header div.utilisateur div#create-user i.material-icons {
+          padding: 0px 5px;
+          vertical-align: bottom;
+          color: black; } }
+@media screen and (min-width: 1476px) {
+  section {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    width: 80%;
+    margin: 0 auto; } }
+@media screen and (min-width: 560px) and (max-width: 1472px) {
+  section {
+    position: relative;
+    display: flex;
+    padding: 5px 5px;
+    justify-content: space-between; } }
+@media screen and (min-width: 320px) and (max-width: 559px) {
+  section {
+    position: relative;
+    padding: 5px 5px; } }
+@media screen and (min-width: 1476px) {
+  section div#bloc-left {
+    position: relative;
+    border: 1px solid #999999;
+    width: 35%;
+    max-height: 100%;
+    padding: 10px 0px;
+    box-shadow: 1px 2px 2px 2px #dddddd; }
+    section div#bloc-left div#bloc-search {
+      display: flex;
+      justify-content: space-between;
+      padding-left: 10px; }
+      section div#bloc-left div#bloc-search div.saisi input#search-user {
+        border: 0px;
+        height: 30px; }
+        section div#bloc-left div#bloc-search div.saisi input#search-user:focus {
+          outline: none; }
+      section div#bloc-left div#bloc-search div.saisi i#button-search {
+        vertical-align: top; }
+      section div#bloc-left div#bloc-search div.saisi hr {
+        border: 0.5px solid black; }
+      section div#bloc-left div#bloc-search div.filtre {
+        background: #00a4d3;
+        padding: 0 2px;
+        cursor: pointer; }
+        section div#bloc-left div#bloc-search div.filtre p {
+          text-align: center;
+          font-weight: bold;
+          vertical-align: text-bottom; }
+          section div#bloc-left div#bloc-search div.filtre p i.material-icons {
+            vertical-align: middle;
+            font-size: 36px; }
+    section div#bloc-left ul#order-to {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0px; }
+      section div#bloc-left ul#order-to li {
+        list-style: none;
+        display: inline-block;
+        padding: 5px;
+        cursor: pointer; }
+        section div#bloc-left ul#order-to li i {
+          font-size: 28px; }
+      section div#bloc-left ul#order-to li#select-all,
+      section div#bloc-left ul#order-to li#select-multi {
+        color: #ff6624;
+        background: #ebebeb;
+        font-size: 14px;
+        padding-top: 10px; }
+        section div#bloc-left ul#order-to li#select-all i,
+        section div#bloc-left ul#order-to li#select-multi i {
+          font-size: inherit; }
+    section div#bloc-left ul#user-list {
+      width: 100%;
+      height: 2000px;
+      overflow: scroll; }
+      section div#bloc-left ul#user-list li {
+        display: block;
+        list-style: none;
+        border: 0.5px solid #ebebeb;
+        padding: 5px 2px;
+        cursor: pointer; }
+        section div#bloc-left ul#user-list li:hover {
+          background: #00a4d3; } }
+@media screen and (min-width: 1024px) and (max-width: 1472px) {
+  section div#bloc-left {
+    position: relative;
+    border: 1px solid #999999;
+    width: 35%;
+    max-height: 100%;
+    padding: 10px 0px;
+    box-shadow: 1px 2px 2px 2px #dddddd; }
+    section div#bloc-left div#bloc-search {
+      display: flex;
+      justify-content: space-between;
+      padding-left: 10px; }
+      section div#bloc-left div#bloc-search div.saisi input#search-user {
+        border: 0px;
+        height: 30px; }
+        section div#bloc-left div#bloc-search div.saisi input#search-user:focus {
+          outline: none; }
+      section div#bloc-left div#bloc-search div.saisi i#button-search {
+        vertical-align: top; }
+      section div#bloc-left div#bloc-search div.saisi hr {
+        border: 0.5px solid black; }
+      section div#bloc-left div#bloc-search div.filtre {
+        background: #00a4d3;
+        padding: 0 2px;
+        cursor: pointer; }
+        section div#bloc-left div#bloc-search div.filtre p {
+          text-align: center;
+          font-weight: bold;
+          vertical-align: text-bottom; }
+          section div#bloc-left div#bloc-search div.filtre p i.material-icons {
+            vertical-align: middle;
+            font-size: 36px; }
+    section div#bloc-left ul#order-to {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0px; }
+      section div#bloc-left ul#order-to li {
+        list-style: none;
+        display: inline-block;
+        padding: 5px;
+        cursor: pointer; }
+        section div#bloc-left ul#order-to li i {
+          font-size: 28px; }
+      section div#bloc-left ul#order-to li#select-all,
+      section div#bloc-left ul#order-to li#select-multi {
+        color: #ff6624;
+        background: #ebebeb;
+        font-size: 14px;
+        padding-top: 10px; }
+        section div#bloc-left ul#order-to li#select-all i,
+        section div#bloc-left ul#order-to li#select-multi i {
+          font-size: inherit; }
+    section div#bloc-left ul#user-list {
+      width: 100%;
+      height: 2000px;
+      overflow: scroll; }
+      section div#bloc-left ul#user-list li {
+        display: block;
+        list-style: none;
+        border: 0.5px solid #ebebeb;
+        padding: 5px 2px;
+        cursor: pointer;
+        font-size: 13px; }
+        section div#bloc-left ul#user-list li:hover {
+          background: #00a4d3; } }
+@media screen and (min-width: 560px) and (max-width: 1023px) {
+  section div#bloc-left {
+    position: relative;
+    border: 1px solid #999999;
+    width: 35%;
+    max-height: 100%;
+    padding: 10px 0px;
+    box-shadow: 1px 2px 2px 2px #dddddd; }
+    section div#bloc-left div#bloc-search {
+      padding: 0px 10px; }
+      section div#bloc-left div#bloc-search div.saisi input#search-user {
+        border: 0px;
+        height: 30px; }
+        section div#bloc-left div#bloc-search div.saisi input#search-user:focus {
+          outline: none; }
+      section div#bloc-left div#bloc-search div.saisi i#button-search {
+        vertical-align: top; }
+      section div#bloc-left div#bloc-search div.saisi hr {
+        border: 0.5px solid black; }
+      section div#bloc-left div#bloc-search div.filtre {
+        background: #00a4d3;
+        padding: 0 2px;
+        cursor: pointer; }
+        section div#bloc-left div#bloc-search div.filtre p {
+          text-align: center;
+          font-weight: bold;
+          vertical-align: text-bottom; }
+          section div#bloc-left div#bloc-search div.filtre p i.material-icons {
+            vertical-align: middle;
+            font-size: 36px; }
+    section div#bloc-left ul#order-to {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0px;
+      flex-wrap: wrap; }
+      section div#bloc-left ul#order-to li {
+        list-style: none;
+        display: inline-block;
+        padding: 5px;
+        cursor: pointer; }
+        section div#bloc-left ul#order-to li i {
+          font-size: 28px; }
+      section div#bloc-left ul#order-to li#select-all,
+      section div#bloc-left ul#order-to li#select-multi {
+        color: #ff6624;
+        background: #ebebeb;
+        font-size: 14px;
+        padding-top: 10px; }
+        section div#bloc-left ul#order-to li#select-all i,
+        section div#bloc-left ul#order-to li#select-multi i {
+          font-size: inherit; }
+    section div#bloc-left ul#user-list {
+      width: 100%;
+      height: 2000px;
+      overflow: scroll; }
+      section div#bloc-left ul#user-list li {
+        display: block;
+        list-style: none;
+        border: 0.5px solid #ebebeb;
+        padding: 5px 2px;
+        cursor: pointer;
+        font-size: 13px; }
+        section div#bloc-left ul#user-list li:hover {
+          background: #00a4d3; } }
+@media screen and (min-width: 320px) and (max-width: 559px) {
+  section div#bloc-left {
+    position: relative;
+    border: 1px solid #999999;
+    width: 100%;
+    max-height: 300px;
+    padding: 10px 0px;
+    box-shadow: 1px 2px 2px 2px #dddddd; }
+    section div#bloc-left div#bloc-search {
+      padding: 0px 10px; }
+      section div#bloc-left div#bloc-search div.saisi input#search-user {
+        border: 0px;
+        height: 30px; }
+        section div#bloc-left div#bloc-search div.saisi input#search-user:focus {
+          outline: none; }
+      section div#bloc-left div#bloc-search div.saisi i#button-search {
+        vertical-align: top; }
+      section div#bloc-left div#bloc-search div.saisi hr {
+        border: 0.5px solid black; }
+      section div#bloc-left div#bloc-search div.filtre {
+        background: #00a4d3;
+        padding: 0 2px;
+        cursor: pointer; }
+        section div#bloc-left div#bloc-search div.filtre p {
+          text-align: center;
+          font-weight: bold;
+          vertical-align: text-bottom; }
+          section div#bloc-left div#bloc-search div.filtre p i.material-icons {
+            vertical-align: middle;
+            font-size: 36px; }
+    section div#bloc-left ul#order-to {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0px;
+      flex-wrap: wrap; }
+      section div#bloc-left ul#order-to li {
+        list-style: none;
+        display: inline-block;
+        padding: 5px;
+        cursor: pointer; }
+        section div#bloc-left ul#order-to li i {
+          font-size: 28px; }
+      section div#bloc-left ul#order-to li#select-all,
+      section div#bloc-left ul#order-to li#select-multi {
+        color: #ff6624;
+        background: #ebebeb;
+        font-size: 14px;
+        padding-top: 10px; }
+        section div#bloc-left ul#order-to li#select-all i,
+        section div#bloc-left ul#order-to li#select-multi i {
+          font-size: inherit; }
+    section div#bloc-left ul#user-list {
+      width: 100%;
+      height: 120px;
+      overflow: scroll; }
+      section div#bloc-left ul#user-list li {
+        display: block;
+        list-style: none;
+        border: 0.5px solid #ebebeb;
+        padding: 5px 2px;
+        cursor: pointer;
+        font-size: 13px; }
+        section div#bloc-left ul#user-list li:hover {
+          background: #00a4d3; } }
+@media screen and (min-width: 1476px) {
+  section div#bloc-right {
+    position: relative;
+    border: 1px solid #999999;
+    width: 63%;
+    height: 100%;
+    box-shadow: 1px 2px 2px 2px #dddddd; }
+    section div#bloc-right div.info-user {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+      align-items: flex-end; }
+      section div#bloc-right div.info-user h2 {
+        color: #008db1;
+        font-weight: 300;
+        vertical-align: baseline; }
+      section div#bloc-right div.info-user i.material-icons {
+        font-weight: bold;
+        font-size: 40px;
+        cursor: pointer; }
+    section div#bloc-right div.info-doublon {
+      display: flex;
+      background: #b70f0a;
+      justify-content: center; }
+      section div#bloc-right div.info-doublon p {
+        color: white;
+        padding-right: 50px;
+        text-align: center;
+        padding-top: 5px; }
+      section div#bloc-right div.info-doublon button {
+        border: 0px;
+        background: #f7f6f6;
+        color: #ff6624;
+        margin: 5px 0px;
+        border-radius: 2px;
+        cursor: pointer; }
+        section div#bloc-right div.info-doublon button i.material-icons {
+          color: black;
+          transform: rotate(90deg);
+          vertical-align: middle; }
+    section div#bloc-right div.param {
+      display: flex;
+      justify-content: space-around;
+      padding: 0px 10px; }
+      section div#bloc-right div.param div.param-left {
+        padding: 20px 0px;
+        width: 33%; }
+        section div#bloc-right div.param div.param-left img {
+          width: 100%; }
+        section div#bloc-right div.param div.param-left button {
+          display: block;
+          margin: 15px 0px;
+          border: 0px;
+          background: #ebebeb;
+          color: #ff6624;
+          width: 100%;
+          padding: 10px 0px;
+          cursor: pointer; }
+          section div#bloc-right div.param div.param-left button i.material-icons {
+            color: black;
+            vertical-align: middle; }
+      section div#bloc-right div.param div.param-right {
+        width: 60%;
+        padding: 50px 0px; }
+        section div#bloc-right div.param div.param-right div#com-rule,
+        section div#bloc-right div.param div.param-right div#app-rule {
+          background: #91e4fb;
+          margin: 20px 0px;
+          padding: 25px 10px;
+          border-radius: 2px;
+          cursor: pointer;
+          display: flex;
+          justify-content: space-between; }
+          section div#bloc-right div.param div.param-right div#com-rule p,
+          section div#bloc-right div.param div.param-right div#app-rule p {
+            font-weight: bold;
+            font-size: 19px;
+            padding-top: 13px; }
+          section div#bloc-right div.param div.param-right div#com-rule i.material-icons,
+          section div#bloc-right div.param div.param-right div#app-rule i.material-icons {
+            font-size: 40px;
+            vertical-align: middle; }
+    section div#bloc-right div.info-title {
+      display: flex;
+      background: #00a4d3;
+      justify-content: space-between;
+      border: 0.5px solid #e0e0e0;
+      cursor: pointer; }
+      section div#bloc-right div.info-title h2 {
+        padding: 3px;
+        font-weight: 300;
+        font-size: 22px; }
+      section div#bloc-right div.info-title i.material-icons {
+        font-size: 30px; }
+    section div#bloc-right div#info-connexion {
+      padding: 20px; }
+      section div#bloc-right div#info-connexion table {
+        width: 100%; }
+        section div#bloc-right div#info-connexion table tr {
+          padding: 10px; }
+          section div#bloc-right div#info-connexion table tr td {
+            font-size: 13px;
+            padding: 5px; }
+            section div#bloc-right div#info-connexion table tr td.align-right {
+              text-align: right; }
+            section div#bloc-right div#info-connexion table tr td button#modify-profil,
+            section div#bloc-right div#info-connexion table tr td button#change-login,
+            section div#bloc-right div#info-connexion table tr td button#change-code,
+            section div#bloc-right div#info-connexion table tr td button#admin,
+            section div#bloc-right div#info-connexion table tr td button#send-mail {
+              background: #ebebeb;
+              color: #ff6624;
+              border: 0px;
+              padding: 5px;
+              cursor: pointer; }
+              section div#bloc-right div#info-connexion table tr td button#modify-profil i.material-icons,
+              section div#bloc-right div#info-connexion table tr td button#change-login i.material-icons,
+              section div#bloc-right div#info-connexion table tr td button#change-code i.material-icons,
+              section div#bloc-right div#info-connexion table tr td button#admin i.material-icons,
+              section div#bloc-right div#info-connexion table tr td button#send-mail i.material-icons {
+                color: black;
+                vertical-align: middle; }
+    section div#bloc-right div#info-admin {
+      padding: 20px; }
+      section div#bloc-right div#info-admin form label {
+        margin: 10px;
+        display: inline-block;
+        width: 140px;
+        font-size: 13px; }
+      section div#bloc-right div#info-admin form input {
+        width: 270px;
+        height: 30px;
+        color: #444444; }
+        section div#bloc-right div#info-admin form input#idEnvoie {
+          width: 170px;
+          margin-left: 20px;
+          background: #c0c0c0;
+          border-radius: 3px;
+          border: 0px;
+          cursor: pointer;
+          padding: 2px;
+          color: black; }
+    section div#bloc-right div.bloc-list {
+      padding: 20px; }
+      section div#bloc-right div.bloc-list button {
+        background: #ebebeb;
+        color: #ff6624;
+        border: 0px;
+        padding: 5px;
+        cursor: pointer;
+        margin-bottom: 30px; }
+        section div#bloc-right div.bloc-list button i.material-icons {
+          color: black;
+          vertical-align: middle; }
+      section div#bloc-right div.bloc-list ul li {
+        list-style: none; }
+        section div#bloc-right div.bloc-list ul li i.material-icons {
+          color: black;
+          vertical-align: middle; }
+        section div#bloc-right div.bloc-list ul li span {
+          display: inline-block;
+          width: 200px; } }
+@media screen and (min-width: 1024px) and (max-width: 1472px) {
+  section div#bloc-right {
+    position: relative;
+    border: 1px solid #999999;
+    width: 63%;
+    height: 100%;
+    box-shadow: 1px 2px 2px 2px #dddddd; }
+    section div#bloc-right div.info-user {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+      align-items: flex-end; }
+      section div#bloc-right div.info-user h2 {
+        color: #008db1;
+        font-weight: 300;
+        vertical-align: baseline; }
+      section div#bloc-right div.info-user i.material-icons {
+        font-weight: bold;
+        font-size: 40px;
+        cursor: pointer; }
+    section div#bloc-right div.info-doublon {
+      display: flex;
+      background: #b70f0a;
+      justify-content: center; }
+      section div#bloc-right div.info-doublon p {
+        color: white;
+        padding-right: 50px;
+        text-align: center;
+        padding-top: 5px; }
+      section div#bloc-right div.info-doublon button {
+        border: 0px;
+        background: #f7f6f6;
+        color: #ff6624;
+        margin: 5px 0px;
+        border-radius: 2px;
+        cursor: pointer; }
+        section div#bloc-right div.info-doublon button i.material-icons {
+          color: black;
+          transform: rotate(90deg);
+          vertical-align: middle; }
+    section div#bloc-right div.param {
+      display: flex;
+      justify-content: space-around;
+      padding: 0px 10px; }
+      section div#bloc-right div.param div.param-left {
+        padding: 20px 0px;
+        width: 33%; }
+        section div#bloc-right div.param div.param-left img {
+          width: 100%; }
+        section div#bloc-right div.param div.param-left button {
+          display: block;
+          margin: 15px 0px;
+          border: 0px;
+          background: #ebebeb;
+          color: #ff6624;
+          width: 100%;
+          padding: 10px 0px;
+          cursor: pointer; }
+          section div#bloc-right div.param div.param-left button i.material-icons {
+            color: black;
+            vertical-align: middle; }
+      section div#bloc-right div.param div.param-right {
+        width: 60%;
+        padding: 50px 0px; }
+        section div#bloc-right div.param div.param-right div#com-rule,
+        section div#bloc-right div.param div.param-right div#app-rule {
+          background: #91e4fb;
+          margin: 20px 0px;
+          padding: 25px 10px;
+          border-radius: 2px;
+          cursor: pointer;
+          display: flex;
+          justify-content: space-between; }
+          section div#bloc-right div.param div.param-right div#com-rule p,
+          section div#bloc-right div.param div.param-right div#app-rule p {
+            font-weight: bold;
+            font-size: 19px;
+            padding-top: 13px; }
+          section div#bloc-right div.param div.param-right div#com-rule i.material-icons,
+          section div#bloc-right div.param div.param-right div#app-rule i.material-icons {
+            font-size: 40px;
+            vertical-align: middle; }
+    section div#bloc-right div.info-title {
+      display: flex;
+      background: #00a4d3;
+      justify-content: space-between;
+      border: 0.5px solid #e0e0e0;
+      cursor: pointer; }
+      section div#bloc-right div.info-title h2 {
+        padding: 3px;
+        font-weight: 300;
+        font-size: 22px; }
+      section div#bloc-right div.info-title i.material-icons {
+        font-size: 30px; }
+    section div#bloc-right div#info-connexion {
+      padding: 20px; }
+      section div#bloc-right div#info-connexion table {
+        width: 100%; }
+        section div#bloc-right div#info-connexion table tr {
+          padding: 10px; }
+          section div#bloc-right div#info-connexion table tr td {
+            font-size: 13px;
+            padding: 5px; }
+            section div#bloc-right div#info-connexion table tr td.align-right {
+              text-align: right; }
+            section div#bloc-right div#info-connexion table tr td button#modify-profil,
+            section div#bloc-right div#info-connexion table tr td button#change-login,
+            section div#bloc-right div#info-connexion table tr td button#change-code,
+            section div#bloc-right div#info-connexion table tr td button#admin,
+            section div#bloc-right div#info-connexion table tr td button#send-mail {
+              background: #ebebeb;
+              color: #ff6624;
+              border: 0px;
+              padding: 5px;
+              cursor: pointer; }
+              section div#bloc-right div#info-connexion table tr td button#modify-profil i.material-icons,
+              section div#bloc-right div#info-connexion table tr td button#change-login i.material-icons,
+              section div#bloc-right div#info-connexion table tr td button#change-code i.material-icons,
+              section div#bloc-right div#info-connexion table tr td button#admin i.material-icons,
+              section div#bloc-right div#info-connexion table tr td button#send-mail i.material-icons {
+                color: black;
+                vertical-align: middle; }
+    section div#bloc-right div#info-admin {
+      padding: 20px; }
+      section div#bloc-right div#info-admin form label {
+        margin: 10px;
+        display: inline-block;
+        width: 140px;
+        font-size: 13px; }
+      section div#bloc-right div#info-admin form input {
+        width: 200px;
+        height: 30px;
+        color: #444444; }
+        section div#bloc-right div#info-admin form input#idEnvoie {
+          width: 170px;
+          margin-left: 20px;
+          background: #c0c0c0;
+          border-radius: 3px;
+          border: 0px;
+          cursor: pointer;
+          padding: 2px;
+          color: black; }
+    section div#bloc-right div.bloc-list {
+      padding: 20px; }
+      section div#bloc-right div.bloc-list button {
+        background: #ebebeb;
+        color: #ff6624;
+        border: 0px;
+        padding: 5px;
+        cursor: pointer;
+        margin-bottom: 30px; }
+        section div#bloc-right div.bloc-list button i.material-icons {
+          color: black;
+          vertical-align: middle; }
+      section div#bloc-right div.bloc-list ul li {
+        list-style: none; }
+        section div#bloc-right div.bloc-list ul li i.material-icons {
+          color: black;
+          vertical-align: middle; }
+        section div#bloc-right div.bloc-list ul li span {
+          display: inline-block;
+          width: 200px; } }
+@media screen and (min-width: 736px) and (max-width: 1023px) {
+  section div#bloc-right {
+    position: relative;
+    border: 1px solid #999999;
+    width: 63%;
+    height: 100%;
+    box-shadow: 1px 2px 2px 2px #dddddd; }
+    section div#bloc-right div.info-user {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+      align-items: flex-end; }
+      section div#bloc-right div.info-user h2 {
+        color: #008db1;
+        font-weight: 300;
+        vertical-align: baseline; }
+      section div#bloc-right div.info-user i.material-icons {
+        font-weight: bold;
+        font-size: 40px;
+        cursor: pointer; }
+    section div#bloc-right div.info-doublon {
+      display: flex;
+      background: #b70f0a;
+      justify-content: center; }
+      section div#bloc-right div.info-doublon p {
+        color: white;
+        padding-right: 50px;
+        text-align: center;
+        padding-top: 5px; }
+      section div#bloc-right div.info-doublon button {
+        border: 0px;
+        background: #f7f6f6;
+        color: #ff6624;
+        margin: 5px 0px;
+        border-radius: 2px;
+        cursor: pointer; }
+        section div#bloc-right div.info-doublon button i.material-icons {
+          color: black;
+          transform: rotate(90deg);
+          vertical-align: middle; }
+    section div#bloc-right div.param {
+      display: flex;
+      justify-content: space-around;
+      padding: 0px 10px; }
+      section div#bloc-right div.param div.param-left {
+        padding: 20px 0px;
+        width: 33%; }
+        section div#bloc-right div.param div.param-left img {
+          width: 100%; }
+        section div#bloc-right div.param div.param-left button {
+          display: block;
+          margin: 15px 0px;
+          border: 0px;
+          background: #ebebeb;
+          color: #ff6624;
+          width: 100%;
+          padding: 10px 0px;
+          cursor: pointer; }
+          section div#bloc-right div.param div.param-left button i.material-icons {
+            color: black;
+            vertical-align: middle; }
+      section div#bloc-right div.param div.param-right {
+        width: 60%;
+        padding: 50px 0px; }
+        section div#bloc-right div.param div.param-right div#com-rule,
+        section div#bloc-right div.param div.param-right div#app-rule {
+          background: #91e4fb;
+          margin: 20px 0px;
+          padding: 25px 10px;
+          border-radius: 2px;
+          cursor: pointer;
+          display: flex;
+          justify-content: space-between; }
+          section div#bloc-right div.param div.param-right div#com-rule p,
+          section div#bloc-right div.param div.param-right div#app-rule p {
+            font-weight: bold;
+            font-size: 19px;
+            padding-top: 13px; }
+          section div#bloc-right div.param div.param-right div#com-rule i.material-icons,
+          section div#bloc-right div.param div.param-right div#app-rule i.material-icons {
+            font-size: 40px;
+            vertical-align: middle; }
+    section div#bloc-right div.info-title {
+      display: flex;
+      background: #00a4d3;
+      justify-content: space-between;
+      border: 0.5px solid #e0e0e0;
+      cursor: pointer; }
+      section div#bloc-right div.info-title h2 {
+        padding: 3px;
+        font-weight: 300;
+        font-size: 22px; }
+      section div#bloc-right div.info-title i.material-icons {
+        font-size: 30px; }
+    section div#bloc-right div#info-connexion {
+      padding: 20px; }
+      section div#bloc-right div#info-connexion table {
+        width: 100%; }
+        section div#bloc-right div#info-connexion table tr {
+          padding: 10px; }
+          section div#bloc-right div#info-connexion table tr td {
+            font-size: 13px;
+            padding: 5px; }
+            section div#bloc-right div#info-connexion table tr td.align-right {
+              text-align: right; }
+            section div#bloc-right div#info-connexion table tr td button.bouton-connexion {
+              background: #ebebeb;
+              color: #ff6624;
+              border: 0px;
+              padding: 5px;
+              cursor: pointer; }
+              section div#bloc-right div#info-connexion table tr td button.bouton-connexion i.material-icons {
+                color: black;
+                vertical-align: middle; }
+    section div#bloc-right div#info-admin {
+      padding: 20px;
+      margin-bottom: 20px;
+      position: relative; }
+      section div#bloc-right div#info-admin form label {
+        margin: 10px;
+        display: inline-block;
+        width: 140px;
+        font-size: 13px; }
+      section div#bloc-right div#info-admin form input {
+        width: 200px;
+        height: 30px;
+        color: #444444; }
+        section div#bloc-right div#info-admin form input#idEnvoie {
+          width: 170px;
+          margin-left: 20px;
+          background: #c0c0c0;
+          border-radius: 3px;
+          border: 0px;
+          cursor: pointer;
+          padding: 2px;
+          color: black;
+          position: absolute;
+          top: 97%;
+          left: 38%; }
+    section div#bloc-right div.bloc-list {
+      padding: 20px; }
+      section div#bloc-right div.bloc-list button {
+        background: #ebebeb;
+        color: #ff6624;
+        border: 0px;
+        padding: 5px;
+        cursor: pointer;
+        margin-bottom: 30px; }
+        section div#bloc-right div.bloc-list button i.material-icons {
+          color: black;
+          vertical-align: middle; }
+      section div#bloc-right div.bloc-list ul li {
+        list-style: none; }
+        section div#bloc-right div.bloc-list ul li i.material-icons {
+          color: black;
+          vertical-align: middle; }
+        section div#bloc-right div.bloc-list ul li span {
+          display: inline-block;
+          width: 200px; } }
+@media screen and (min-width: 560px) and (max-width: 735px) {
+  section div#bloc-right {
+    position: relative;
+    border: 1px solid #999999;
+    width: 63%;
+    height: 100%;
+    box-shadow: 1px 2px 2px 2px #dddddd; }
+    section div#bloc-right div.info-user {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+      align-items: flex-end; }
+      section div#bloc-right div.info-user h2 {
+        color: #008db1;
+        font-weight: 300;
+        vertical-align: baseline; }
+      section div#bloc-right div.info-user i.material-icons {
+        font-weight: bold;
+        font-size: 40px;
+        cursor: pointer; }
+    section div#bloc-right div.info-doublon {
+      display: flex;
+      background: #b70f0a;
+      justify-content: center; }
+      section div#bloc-right div.info-doublon p {
+        color: white;
+        padding-right: 50px;
+        text-align: center;
+        padding-top: 5px; }
+      section div#bloc-right div.info-doublon button {
+        border: 0px;
+        background: #f7f6f6;
+        color: #ff6624;
+        margin: 5px 0px;
+        border-radius: 2px;
+        cursor: pointer; }
+        section div#bloc-right div.info-doublon button i.material-icons {
+          color: black;
+          transform: rotate(90deg);
+          vertical-align: middle; }
+    section div#bloc-right div.param {
+      display: flex;
+      justify-content: space-around;
+      padding: 0px 10px; }
+      section div#bloc-right div.param div.param-left {
+        padding: 20px 0px;
+        width: 33%; }
+        section div#bloc-right div.param div.param-left img {
+          width: 100%; }
+        section div#bloc-right div.param div.param-left button {
+          display: block;
+          margin: 15px 0px;
+          border: 0px;
+          background: #ebebeb;
+          color: #ff6624;
+          width: 100%;
+          padding: 10px 0px;
+          cursor: pointer; }
+          section div#bloc-right div.param div.param-left button i.material-icons {
+            color: black;
+            vertical-align: middle; }
+      section div#bloc-right div.param div.param-right {
+        width: 60%;
+        padding: 50px 0px; }
+        section div#bloc-right div.param div.param-right div#com-rule,
+        section div#bloc-right div.param div.param-right div#app-rule {
+          background: #91e4fb;
+          margin: 20px 0px;
+          padding: 25px 10px;
+          border-radius: 2px;
+          cursor: pointer;
+          display: flex;
+          justify-content: space-between; }
+          section div#bloc-right div.param div.param-right div#com-rule p,
+          section div#bloc-right div.param div.param-right div#app-rule p {
+            font-weight: bold;
+            font-size: 19px;
+            padding-top: 13px; }
+          section div#bloc-right div.param div.param-right div#com-rule i.material-icons,
+          section div#bloc-right div.param div.param-right div#app-rule i.material-icons {
+            font-size: 40px;
+            vertical-align: middle; }
+    section div#bloc-right div.info-title {
+      display: flex;
+      background: #00a4d3;
+      justify-content: space-between;
+      border: 0.5px solid #e0e0e0;
+      cursor: pointer; }
+      section div#bloc-right div.info-title h2 {
+        padding: 3px;
+        font-weight: 300;
+        font-size: 22px; }
+      section div#bloc-right div.info-title i.material-icons {
+        font-size: 30px; }
+    section div#bloc-right div#info-connexion {
+      padding: 20px; }
+      section div#bloc-right div#info-connexion table {
+        width: 100%; }
+        section div#bloc-right div#info-connexion table tr {
+          padding: 10px; }
+          section div#bloc-right div#info-connexion table tr td {
+            font-size: 13px;
+            padding: 5px; }
+            section div#bloc-right div#info-connexion table tr td.align-right {
+              text-align: right; }
+            section div#bloc-right div#info-connexion table tr td button.bouton-connexion {
+              background: #ebebeb;
+              color: #ff6624;
+              border: 0px;
+              padding: 5px;
+              cursor: pointer; }
+              section div#bloc-right div#info-connexion table tr td button.bouton-connexion i.material-icons {
+                color: black;
+                vertical-align: middle; }
+    section div#bloc-right div#info-admin {
+      padding: 20px;
+      margin-bottom: 20px;
+      position: relative; }
+      section div#bloc-right div#info-admin form label {
+        margin: 10px;
+        display: inline-block;
+        width: 140px;
+        font-size: 13px; }
+      section div#bloc-right div#info-admin form input {
+        width: 200px;
+        height: 30px;
+        color: #444444; }
+        section div#bloc-right div#info-admin form input#idEnvoie {
+          width: 170px;
+          margin-left: 20px;
+          background: #c0c0c0;
+          border-radius: 3px;
+          border: 0px;
+          cursor: pointer;
+          padding: 2px;
+          color: black;
+          position: absolute;
+          top: 98%;
+          left: 5%; }
+    section div#bloc-right div.bloc-list {
+      padding: 20px; }
+      section div#bloc-right div.bloc-list button {
+        background: #ebebeb;
+        color: #ff6624;
+        border: 0px;
+        padding: 5px;
+        cursor: pointer;
+        margin-bottom: 30px; }
+        section div#bloc-right div.bloc-list button i.material-icons {
+          color: black;
+          vertical-align: middle; }
+      section div#bloc-right div.bloc-list ul li {
+        list-style: none; }
+        section div#bloc-right div.bloc-list ul li i.material-icons {
+          color: black;
+          vertical-align: middle; }
+        section div#bloc-right div.bloc-list ul li span {
+          display: inline-block;
+          width: 200px; } }
+@media screen and (min-width: 320px) and (max-width: 559px) {
+  section div#bloc-right {
+    position: relative;
+    border: 1px solid #999999;
+    height: 100%;
+    box-shadow: 1px 2px 2px 2px #dddddd; }
+    section div#bloc-right div.info-user {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+      align-items: flex-end; }
+      section div#bloc-right div.info-user h2 {
+        color: #008db1;
+        font-weight: 300;
+        vertical-align: baseline;
+        font-size: 20px; }
+      section div#bloc-right div.info-user i.material-icons {
+        font-weight: bold;
+        font-size: 30px;
+        cursor: pointer; }
+    section div#bloc-right div.info-doublon {
+      display: flex;
+      background: #b70f0a;
+      justify-content: center; }
+      section div#bloc-right div.info-doublon p {
+        color: white;
+        padding-right: 50px;
+        text-align: center;
+        padding-top: 5px; }
+      section div#bloc-right div.info-doublon button {
+        border: 0px;
+        background: #f7f6f6;
+        color: #ff6624;
+        margin: 5px 0px;
+        border-radius: 2px;
+        cursor: pointer; }
+        section div#bloc-right div.info-doublon button i.material-icons {
+          color: black;
+          transform: rotate(90deg);
+          vertical-align: middle; }
+    section div#bloc-right div.param {
+      display: flex;
+      justify-content: space-around;
+      padding: 0px 10px; }
+      section div#bloc-right div.param div.param-left {
+        padding: 20px 0px;
+        width: 33%; }
+        section div#bloc-right div.param div.param-left img {
+          width: 100%; }
+        section div#bloc-right div.param div.param-left button {
+          display: block;
+          margin: 15px 0px;
+          border: 0px;
+          background: #ebebeb;
+          color: #ff6624;
+          width: 100%;
+          padding: 10px 0px;
+          cursor: pointer; }
+          section div#bloc-right div.param div.param-left button i.material-icons {
+            color: black;
+            vertical-align: middle; }
+      section div#bloc-right div.param div.param-right {
+        width: 60%;
+        padding: 50px 0px; }
+        section div#bloc-right div.param div.param-right div#com-rule,
+        section div#bloc-right div.param div.param-right div#app-rule {
+          background: #91e4fb;
+          margin: 20px 0px;
+          padding: 25px 10px;
+          border-radius: 2px;
+          cursor: pointer;
+          display: flex;
+          justify-content: space-between; }
+          section div#bloc-right div.param div.param-right div#com-rule p,
+          section div#bloc-right div.param div.param-right div#app-rule p {
+            font-weight: bold;
+            font-size: 15px;
+            padding-top: 13px; }
+          section div#bloc-right div.param div.param-right div#com-rule i.material-icons,
+          section div#bloc-right div.param div.param-right div#app-rule i.material-icons {
+            font-size: 30px;
+            vertical-align: middle; }
+    section div#bloc-right div.info-title {
+      display: flex;
+      background: #00a4d3;
+      justify-content: space-between;
+      border: 0.5px solid #e0e0e0;
+      cursor: pointer; }
+      section div#bloc-right div.info-title h2 {
+        padding: 3px;
+        font-weight: 300;
+        font-size: 22px; }
+      section div#bloc-right div.info-title i.material-icons {
+        font-size: 30px; }
+    section div#bloc-right div#info-connexion table {
+      width: 100%; }
+      section div#bloc-right div#info-connexion table tr {
+        padding: 10px; }
+        section div#bloc-right div#info-connexion table tr td {
+          font-size: 13px;
+          padding: 5px; }
+          section div#bloc-right div#info-connexion table tr td.align-right {
+            text-align: right; }
+          section div#bloc-right div#info-connexion table tr td button.bouton-connexion {
+            background: #ebebeb;
+            color: #ff6624;
+            border: 0px;
+            padding: 5px;
+            cursor: pointer; }
+            section div#bloc-right div#info-connexion table tr td button.bouton-connexion i.material-icons {
+              color: black;
+              vertical-align: middle; }
+    section div#bloc-right div#info-admin {
+      padding: 20px;
+      margin-bottom: 20px;
+      position: relative; }
+      section div#bloc-right div#info-admin form label {
+        margin: 10px;
+        display: inline-block;
+        width: 140px;
+        font-size: 13px; }
+      section div#bloc-right div#info-admin form input {
+        width: 200px;
+        height: 30px;
+        color: #444444; }
+        section div#bloc-right div#info-admin form input#idEnvoie {
+          width: 170px;
+          margin-left: 20px;
+          background: #c0c0c0;
+          border-radius: 3px;
+          border: 0px;
+          cursor: pointer;
+          padding: 2px;
+          color: black;
+          position: absolute;
+          top: 98%;
+          left: 5%; }
+    section div#bloc-right div.bloc-list {
+      padding: 20px; }
+      section div#bloc-right div.bloc-list button {
+        background: #ebebeb;
+        color: #ff6624;
+        border: 0px;
+        padding: 5px;
+        cursor: pointer;
+        margin-bottom: 30px; }
+        section div#bloc-right div.bloc-list button i.material-icons {
+          color: black;
+          vertical-align: middle; }
+      section div#bloc-right div.bloc-list ul li {
+        list-style: none; }
+        section div#bloc-right div.bloc-list ul li i.material-icons {
+          color: black;
+          vertical-align: middle; }
+        section div#bloc-right div.bloc-list ul li span {
+          display: inline-block;
+          width: 200px; } }
+
+/*# sourceMappingURL=style.css.map */
